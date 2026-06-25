@@ -1,0 +1,182 @@
+{
+  "rules": [
+    {
+      "rule_id": "R01",
+      "label": "Правило №1",
+      "conditions": [
+        {
+          "feature": "friendliness",
+          "terms": ["high"]
+        },
+        {
+          "feature": "gregariousness",
+          "terms": ["high"]
+        },
+        {
+          "feature": "social_circle",
+          "terms": ["close", "distant"]
+        },
+        {
+          "feature": "imposition_degree",
+          "terms": ["low","medium","high"]
+        },
+        {
+          "feature": "contact_duration",
+          "terms": ["low","medium","high"]
+        }
+      ],
+      "target_scenarios": [
+        "я-попал-в-необычное-место-РАДЗА"
+      ],
+      "effect": "strong_increase"
+    },
+    {
+      "rule_id": "R02",
+      "label": "Правило №2",
+      "conditions": [
+        {
+          "feature": "friendliness",
+          "terms": ["high"]
+        },
+        {
+          "feature": "gregariousness",
+          "terms": ["high"]
+        },
+        {
+          "feature": "social_circle",
+          "terms": ["close", "distant"]
+        },
+        {
+          "feature": "imposition_degree",
+          "terms": ["low","medium","high"]
+        },
+        {
+          "feature": "contact_duration",
+          "terms": ["low","medium","high"]
+        }
+      ],
+      "target_scenarios": [
+        "у-еды-был-приятный-вкус"
+      ],
+      "effect": "strong_decrease"
+    },
+    {
+      "rule_id": "R03",
+      "label": "Правило №3",
+      "conditions": [
+        {
+          "feature": "friendliness",
+          "terms": ["high"]
+        },
+        {
+          "feature": "gregariousness",
+          "terms": ["high"]
+        },
+        {
+          "feature": "social_circle",
+          "terms": ["close", "distant"]
+        },
+        {
+          "feature": "imposition_degree",
+          "terms": ["low","medium","high"]
+        },
+        {
+          "feature": "contact_duration",
+          "terms": ["low","medium","high"]
+        }
+      ],
+      "target_scenarios": [
+        "у-еды-был-неприятный-вкус"
+      ],
+      "effect": "strong_decrease"
+    },
+    {
+      "rule_id": "R04",
+      "label": "Правило №4",
+      "conditions": [
+        {
+          "feature": "excitement_seeking",
+          "terms": ["very_high"]
+        },
+        {
+          "feature": "social_circle",
+          "terms": ["distant"]
+        },
+        {
+          "feature": "offensiveness_degree",
+          "terms": ["low", "medium", "high"]
+        }
+      ],
+      "target_scenarios": [
+        "плохие-люди-ненавидят-тебя"
+      ],
+      "effect": "strong_increase"
+    },
+    {
+      "rule_id": "R05",
+      "label": "Правило №5",
+      "conditions": [
+        {
+          "feature": "excitement_seeking",
+          "terms": ["very_high"]
+        },
+        {
+          "feature": "social_circle",
+          "terms": ["close","distant"]
+        },
+        {
+          "feature": "offensiveness_degree",
+          "terms": ["low", "medium", "high"]
+        }
+      ],
+      "target_scenarios": [
+        "ты-грустишь"
+      ],
+      "effect": "strong_decrease"
+    },
+    {
+      "rule_id": "R06",
+      "label": "Правило №6",
+      "conditions": [
+        {
+          "feature": "excitement_seeking",
+          "terms": ["very_high"]
+        },
+        {
+          "feature": "social_circle",
+          "terms": ["close","distant"]
+        },
+        {
+          "feature": "offensiveness_degree",
+          "terms": ["low", "medium", "high"]
+        }
+      ],
+      "target_scenarios": [
+        "ты-нужен-всем-людям"
+      ],
+      "effect": "strong_decrease"
+    },
+    {
+      "rule_id": "R07",
+      "label": "Правило №7",
+      "conditions": [
+        {
+          "feature": "excitement_seeking",
+          "terms": ["very_high"]
+        },
+        {
+          "feature": "social_circle",
+          "terms": ["close","distant"]
+        },
+        {
+          "feature": "offensiveness_degree",
+          "terms": ["low", "medium", "high"]
+        }
+      ],
+      "target_scenarios": [
+        "ты-нужен-всем-людям"
+      ],
+      "effect": "strong_decrease"
+    }
+  ]
+}

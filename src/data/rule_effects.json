@@ -1,0 +1,17 @@
+{
+  "section": "rule_effects",
+  "multipliers": {
+    "strong_decrease": 0.5,
+    "decrease": 0.75,
+    "no_change": 1.0,
+    "increase": 1.25,
+    "strong_increase": 1.5
+  },
+  "labels": {
+    "strong_decrease": "сильное ослабление",
+    "decrease": "ослабление",
+    "no_change": "без изменения",
+    "increase": "усиление",
+    "strong_increase": "сильное усиление"
+  }
+}

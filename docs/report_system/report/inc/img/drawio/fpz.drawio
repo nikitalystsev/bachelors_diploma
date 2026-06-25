@@ -1,0 +1,93 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36">
+  <diagram name="Page-1" id="3b7BDu4vpgOtuoFNMT2E">
+    <mxGraphModel dx="1204" dy="1889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ggSus2Sj6oDeFXivAaxe-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Модуль модификации поведения&amp;nbsp;&lt;/div&gt;&lt;div&gt;на основе персональных черт&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="340" x="250" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ggSus2Sj6oDeFXivAaxe-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ggSus2Sj6oDeFXivAaxe-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="20" y="335" as="sourcePoint" />
+            <mxPoint x="550" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggSus2Sj6oDeFXivAaxe-5" connectable="0" parent="ggSus2Sj6oDeFXivAaxe-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Набор пар вида&amp;nbsp;&lt;div&gt;&amp;lt;имя сценария,&amp;nbsp;&lt;div&gt;вес как степень соответствия&amp;nbsp;&lt;/div&gt;&lt;div&gt;репрезентации смысла предложения&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;посылке сценария&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0088" y="4" as="geometry">
+            <mxPoint y="-41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggSus2Sj6oDeFXivAaxe-14" edge="1" parent="1" source="ggSus2Sj6oDeFXivAaxe-1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="280" as="sourcePoint" />
+            <mxPoint x="820" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggSus2Sj6oDeFXivAaxe-15" connectable="0" parent="ggSus2Sj6oDeFXivAaxe-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Измененный набор пар вида&amp;nbsp;&lt;div&gt;&amp;lt;имя сценария,&amp;nbsp;&lt;div&gt;вес как степень соответствия&amp;nbsp;&lt;/div&gt;&lt;div&gt;репрезентации смысла предложения&amp;nbsp;&lt;/div&gt;&lt;div&gt;посылке сценария&amp;gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1654" y="2" as="geometry">
+            <mxPoint x="14" y="-43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SdPiXJL7CIwbVE_EmVQo-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=0;" value="А3" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="pfw3UTl5LB1s0BYLhZpW-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.882;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="ggSus2Sj6oDeFXivAaxe-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="-30" />
+            </Array>
+            <mxPoint x="550" y="-30" as="sourcePoint" />
+            <mxPoint x="490" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfw3UTl5LB1s0BYLhZpW-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Характер, задаваемый песональными чертами&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="90" x="425" y="-110" as="geometry" />
+        </mxCell>
+        <mxCell id="pfw3UTl5LB1s0BYLhZpW-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.647;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" target="ggSus2Sj6oDeFXivAaxe-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="-20" />
+            </Array>
+            <mxPoint x="470" y="-30" as="sourcePoint" />
+            <mxPoint x="450" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfw3UTl5LB1s0BYLhZpW-7" connectable="0" parent="pfw3UTl5LB1s0BYLhZpW-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Правила переформирования&lt;div&gt;набора сценариев&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2771" y="-4" as="geometry">
+            <mxPoint x="184" y="-47" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfw3UTl5LB1s0BYLhZpW-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.118;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" target="ggSus2Sj6oDeFXivAaxe-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="-20" />
+            </Array>
+            <mxPoint x="290" y="-30" as="sourcePoint" />
+            <mxPoint x="370" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfw3UTl5LB1s0BYLhZpW-9" connectable="0" parent="pfw3UTl5LB1s0BYLhZpW-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Параметры отношение робота&amp;nbsp;&lt;div&gt;к собеседнику&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2783" y="-2" as="geometry">
+            <mxPoint x="-88" y="-54" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfw3UTl5LB1s0BYLhZpW-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.355;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" target="ggSus2Sj6oDeFXivAaxe-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="105" />
+              <mxPoint x="371" y="105" />
+            </Array>
+            <mxPoint x="370" y="-30" as="sourcePoint" />
+            <mxPoint x="370" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfw3UTl5LB1s0BYLhZpW-11" connectable="0" parent="pfw3UTl5LB1s0BYLhZpW-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Параметры ситуации" vertex="1">
+          <mxGeometry relative="1" x="-0.2783" y="-2" as="geometry">
+            <mxPoint x="-8" y="-124" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

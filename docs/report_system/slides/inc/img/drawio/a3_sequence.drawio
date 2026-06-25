@@ -1,0 +1,195 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="a3_sequence">
+    <mxGraphModel dx="1144" dy="1404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="940" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="actor" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Пользователь" vertex="1">
+          <mxGeometry height="90" width="60" x="30" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="gui" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Компонент графического&lt;br&gt;интерфейса пользователя" vertex="1">
+          <mxGeometry height="60" width="150" x="115" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Компонент перевзвешивания&lt;br&gt;активированных д-сценариев" vertex="1">
+          <mxGeometry height="60" width="170" x="315" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="a12_client" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Компонент клиента синтактико-&lt;br&gt;семантического модуля робота Ф-2" vertex="1">
+          <mxGeometry height="70" width="180" x="520" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="a12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Синтактико-семантический&lt;br&gt;модуль робота Ф-2" vertex="1">
+          <mxGeometry height="60" width="170" x="755" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="l_actor" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;strokeWidth=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="120" as="sourcePoint" />
+            <mxPoint x="60" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_gui" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;strokeWidth=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="95" as="sourcePoint" />
+            <mxPoint x="190" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_a3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;strokeWidth=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="95" as="sourcePoint" />
+            <mxPoint x="400" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_a12_client" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;strokeWidth=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="100" as="sourcePoint" />
+            <mxPoint x="610" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_a12" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;dashed=1;strokeWidth=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="95" as="sourcePoint" />
+            <mxPoint x="840" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="act_actor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="470" width="16" x="52" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="act_gui" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="470" width="16" x="182" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="act_a3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="430" width="16" x="392" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="act_a12_client" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="190" width="16" x="602" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="act_a12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" value="" vertex="1">
+          <mxGeometry height="120" width="16" x="832" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="m_user_gui" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="160" as="sourcePoint" />
+            <mxPoint x="182" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_user_gui" connectable="0" parent="m_user_gui" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Предложение на&lt;div&gt;естественном языке&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0132" y="-3" as="geometry">
+            <mxPoint y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_gui_a3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="198" y="190" as="sourcePoint" />
+            <mxPoint x="392" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_gui_a3" connectable="0" parent="m_gui_a3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Предложение на&lt;div&gt;естественном языке&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0132" y="-3" as="geometry">
+            <mxPoint y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_a3_client" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408" y="230" as="sourcePoint" />
+            <mxPoint x="602" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_a3_client" connectable="0" parent="m_a3_client" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Запрос активированных&lt;div&gt;д-сценариев&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0132" y="-3" as="geometry">
+            <mxPoint y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_client_a12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="618" y="260" as="sourcePoint" />
+            <mxPoint x="832" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_client_a12" connectable="0" parent="m_client_a12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="HTTP запрос&lt;div&gt;с предложением&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0132" y="-3" as="geometry">
+            <mxPoint y="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="self_a12" edge="1" parent="1" source="act_a12" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" value="Построение семантического&lt;br&gt;представления и сравнение&lt;br&gt;с посылками сценариев">
+          <mxGeometry relative="1" x="-0.0253" y="90" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="910" y="290" />
+              <mxPoint x="910" y="330" />
+              <mxPoint x="848" y="330" />
+            </Array>
+            <mxPoint x="848" y="290" as="sourcePoint" />
+            <mxPoint x="848" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_a12_client_response" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="832" y="360" as="sourcePoint" />
+            <mxPoint x="618" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_a12_client_response" connectable="0" parent="m_a12_client_response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="HTTP ответ со списком&lt;div&gt;активированных&lt;/div&gt;&lt;div&gt;д-сценариев&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0132" y="-3" as="geometry">
+            <mxPoint y="-39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_client_a3_response" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="602" y="399.44" as="sourcePoint" />
+            <mxPoint x="408" y="399.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_client_a3_response" connectable="0" parent="m_client_a3_response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Список активированных&lt;div&gt;д-сценариев&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0132" y="-3" as="geometry">
+            <mxPoint y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="self_a3_pairs" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=1;exitX=1;exitY=0.6;exitDx=0;exitDy=0;exitPerimeter=0;" value="Формирование пар&lt;div&gt;A = {&amp;lt;d_i, w_i&amp;gt;}&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0253" y="90" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="485" y="417" />
+              <mxPoint x="485" y="457" />
+              <mxPoint x="408" y="457" />
+            </Array>
+            <mxPoint x="408.0000000000002" y="410.0000000000002" as="sourcePoint" />
+            <mxPoint x="408" y="457" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="self_a3_coefficients" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=1;exitX=1;exitY=0.72;exitDx=0;exitDy=0;exitPerimeter=0;" value="Вычисление коэффициентов&lt;div&gt;перевзвешивания&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0253" y="90" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="485" y="482" />
+              <mxPoint x="485" y="522" />
+              <mxPoint x="408" y="522" />
+            </Array>
+            <mxPoint x="408.0000000000002" y="461.60000000000014" as="sourcePoint" />
+            <mxPoint x="408" y="522" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="self_a3_reweighting" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;strokeWidth=1;exitX=1;exitY=0.84;exitDx=0;exitDy=0;exitPerimeter=0;" value="Перевзвешивание">
+          <mxGeometry relative="1" x="-0.0253" y="90" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="485" y="547" />
+              <mxPoint x="485" y="582" />
+              <mxPoint x="408" y="582" />
+            </Array>
+            <mxPoint x="408.0000000000002" y="513.2" as="sourcePoint" />
+            <mxPoint x="408" y="582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_a3_gui_result" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="392" y="600" as="sourcePoint" />
+            <mxPoint x="198" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_a3_gui_result" connectable="0" parent="m_a3_gui_result" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Модифицированный набор пар&lt;div&gt;A&#39; = {&amp;lt;d_i, w&#39;_i&amp;gt;}&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0132" y="-3" as="geometry">
+            <mxPoint y="-35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

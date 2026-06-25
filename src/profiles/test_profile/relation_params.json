@@ -1,0 +1,21 @@
+{
+  "section": "relation",
+  "parameters": [
+    {
+      "feature": "test_relation_feature",
+      "label": "тестовый признак отношения",
+      "input": "select",
+      "default": "distant",
+      "options": [
+        {
+          "term": "close",
+          "label": "близкий"
+        },
+        {
+          "term": "distant",
+          "label": "дальний"
+        }
+      ]
+    }
+  ]
+}

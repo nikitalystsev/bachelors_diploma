@@ -1,0 +1,116 @@
+{
+  "rules": [
+    {
+    "rule_id": "R01",
+      "label": "Правило №1",
+      "conditions": [
+        {
+          "feature": "assertiveness",
+          "terms": [
+            "high"
+          ]
+        },
+        {
+          "feature": "social_circle",
+          "terms": [
+            "distant"
+          ]
+        },
+        {
+          "feature": "offensiveness_degree",
+          "terms": [
+            "high"
+          ]
+        }
+      ],
+      "target_scenarios": [
+        "ты-воодушевляешь-людей"
+      ],
+      "effect": "strong_increase"
+    },
+    {
+    "rule_id": "R02",
+      "label": "Правило №2",
+      "conditions": [
+        {
+          "feature": "assertiveness",
+          "terms": [
+            "high"
+          ]
+        },
+        {
+          "feature": "social_circle",
+          "terms": [
+            "distant"
+          ]
+        },
+        {
+          "feature": "offensiveness_degree",
+          "terms": [
+            "low"
+          ]
+        }
+      ],
+      "target_scenarios": [
+        "ты-воодушевляешь-людей"
+      ],
+      "effect": "strong_increase"
+    },
+    {
+    "rule_id": "R03",
+      "label": "Правило №3",
+      "conditions": [
+        {
+          "feature": "assertiveness",
+          "terms": [
+            "high"
+          ]
+        },
+        {
+          "feature": "social_circle",
+          "terms": [
+            "close"
+          ]
+        },
+        {
+          "feature": "offensiveness_degree",
+          "terms": [
+            "low"
+          ]
+        }
+      ],
+      "target_scenarios": [
+        "ты-воодушевляешь-людей"
+      ],
+      "effect": "strong_increase"
+    },
+    {
+    "rule_id": "R04",
+      "label": "Правило №4",
+      "conditions": [
+        {
+          "feature": "assertiveness",
+          "terms": [
+            "high"
+          ]
+        },
+        {
+          "feature": "social_circle",
+          "terms": [
+            "close"
+          ]
+        },
+        {
+          "feature": "offensiveness_degree",
+          "terms": [
+            "high"
+          ]
+        }
+      ],
+      "target_scenarios": [
+        "ты-воодушевляешь-людей"
+      ],
+      "effect": "strong_increase"
+    }
+  ]
+}

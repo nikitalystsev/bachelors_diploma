@@ -1,0 +1,487 @@
+{
+  "section": "profile",
+  "profile_id": "abstract",
+  "label": "Абстрактный конструктор персонажа",
+  "traits": {
+    "friendliness": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "gregariousness": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "assertiveness": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "activity_level": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "excitement_seeking": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "cheerfulness": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "trust": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "morality": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "altruism": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "cooperation": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "modesty": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "sympathy": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "self_efficacy": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "orderliness": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "dutifulness": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "achievement_striving": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "self_discipline": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "cautiousness": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "anxiety": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "anger": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "depression": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "self_consciousness": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "immoderation": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "vulnerability": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "imagination": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "artistic_interests": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "emotionality": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "adventurousness": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "intellect": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    },
+    "liberalism": {
+      "terms": [
+        {
+          "term": "low",
+          "label": "низкая"
+        },
+        {
+          "term": "medium",
+          "label": "средняя"
+        },
+        {
+          "term": "high",
+          "label": "высокая"
+        }
+      ]
+    }
+  }
+}

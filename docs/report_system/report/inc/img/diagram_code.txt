@@ -1,0 +1,63 @@
+@startuml
+
+skinparam backgroundColor white
+
+skinparam sequence {
+    ParticipantBackgroundColor white
+    ParticipantBorderColor black
+    ActorBackgroundColor white
+    ActorBorderColor black
+
+    LifeLineBorderColor black
+    LifeLineBackgroundColor white
+
+    ArrowColor black
+
+    ActivationBackgroundColor white
+    ActivationBorderColor black
+}
+
+participant "Компонент графического\n интерфейса\n пользователя" as a
+participant "Диспетчер\nдемонстрационного\nПО" as b
+participant "Компонент клиента\nсервера\nробота Ф-2" as c
+participant "\nСервер робота Ф-2\n" as d
+participant "Компонент перевзвешивания\n активированных \nд-сценариев" as e
+
+activate a
+activate b
+a -> b: Ввод параметров профиля,\nотношения к собеседнику,\nситуации
+b -> b ++: Установка значений параметров
+deactivate b
+b -->> a: Параметры установлены
+a -> b: Ввод строки с предложением
+b -> c: Строка с предложением
+activate c
+c -> c ++: Формирование HTTP-запроса с предложением
+deactivate c
+c -> d: HTTP-запрос на получение списка сценариев
+activate d
+d -> d ++: Построение семантического\nпредставления и сравнение\nс посылками сценариев
+deactivate d
+d -> d ++: Формирование HTTP-ответа
+deactivate d
+d -->> c: HTTP-ответ со списком \nвзвешенных активированных сценариев
+deactivate d
+c -> c ++: Выборка из HTTP-ответа пар A = {<d<sub>i</sub>, w<sub>i</sub>>}
+deactivate c
+c -->> b: Пары A = {<d<sub>i</sub>, w<sub>i</sub>>}
+deactivate c
+b --> a: Инструкция о выводе\nпар A = {<d<sub>i</sub>, w<sub>i</sub>>}
+a -> a ++: Вывод пар A = {<d<sub>i</sub>, w<sub>i</sub>>}
+deactivate a
+b -> e: Пары A = {<d<sub>i</sub>, w<sub>i</sub>>} и значения параметров
+activate e
+e -> e ++: Вычисление \nкоэффициентов\nперевзвешивания
+deactivate e
+e -> e ++: Перевзвешивание
+deactivate e
+e -->> b: Модифицированный набор пар A' = {<d<sub>i</sub>, w'<sub>i</sub>>}
+deactivate e
+b --> a: Инструкция о выводе\nпар A' = {<d<sub>i</sub>, w'<sub>i</sub>>}
+a -> a ++: Вывод пар A' = {<d<sub>i</sub>, w'<sub>i</sub>>}
+deactivate a
+@enduml

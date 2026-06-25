@@ -1,0 +1,11 @@
+{
+  "section": "profile",
+  "profile_id": "authoritarian",
+  "label": "Авторитарно-контроллирующий (Амбридж)",
+  "traits": {
+    "assertiveness": {
+      "value": "high",
+      "label": "высокая"
+    }
+  }
+}

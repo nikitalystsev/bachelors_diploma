@@ -1,0 +1,23 @@
+{
+  "section": "profile",
+  "profile_id": "distanced",
+  "label": "Защитно-дистанцированный (Шрек)",
+  "traits": {
+    "assertiveness": {
+      "value": "medium",
+      "label": "средняя"
+    },
+    "cooperation": {
+      "value": "below_average",
+      "label": "ниже среднего"
+    },
+    "gregariousness": {
+      "value": "low",
+      "label": "низкая"
+    },
+    "self_consciousness": {
+      "value": "high",
+      "label": "высокая"
+    }
+  }
+}

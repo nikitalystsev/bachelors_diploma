@@ -1,0 +1,19 @@
+{
+  "section": "profile",
+  "profile_id": "adventurer",
+  "label": "Энергичный авантюрист (Марти Макфлай)",
+  "traits": {
+    "friendliness": {
+      "value": "high",
+      "label": "высокая"
+    },
+    "gregariousness": {
+      "value": "high",
+      "label": "высокая"
+    },
+    "excitement_seeking": {
+      "value": "very_high",
+      "label": "очень высокая"
+    }
+  }
+}

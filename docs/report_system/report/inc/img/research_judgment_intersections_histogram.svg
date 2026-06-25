@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="500" viewBox="0 0 1040 500">
+<rect x="0" y="0" width="1040" height="500" fill="#ffffff"/>
+<text x="28" y="32" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#172033">Распределение числа ситуаций в данных от числа респондентов, давших идентичный ответ</text>
+<line x1="74" y1="424" x2="996" y2="424" stroke="#98a2b3"/>
+<line x1="74" y1="96" x2="74" y2="424" stroke="#98a2b3"/>
+<line x1="69" y1="424.0" x2="996" y2="424.0" stroke="#eef1f5"/>
+<text x="62" y="428.0" font-family="Arial, sans-serif" font-size="11" fill="#475467" text-anchor="end">0</text>
+<line x1="69" y1="358.4" x2="996" y2="358.4" stroke="#eef1f5"/>
+<text x="62" y="362.4" font-family="Arial, sans-serif" font-size="11" fill="#475467" text-anchor="end">12</text>
+<line x1="69" y1="292.8" x2="996" y2="292.8" stroke="#eef1f5"/>
+<text x="62" y="296.8" font-family="Arial, sans-serif" font-size="11" fill="#475467" text-anchor="end">24</text>
+<line x1="69" y1="227.2" x2="996" y2="227.2" stroke="#eef1f5"/>
+<text x="62" y="231.2" font-family="Arial, sans-serif" font-size="11" fill="#475467" text-anchor="end">36</text>
+<line x1="69" y1="161.6" x2="996" y2="161.6" stroke="#eef1f5"/>
+<text x="62" y="165.60000000000002" font-family="Arial, sans-serif" font-size="11" fill="#475467" text-anchor="end">48</text>
+<line x1="69" y1="96.0" x2="996" y2="96.0" stroke="#eef1f5"/>
+<text x="62" y="100.0" font-family="Arial, sans-serif" font-size="11" fill="#475467" text-anchor="end">60</text>
+<rect x="74.0" y="128.8" width="42.8" height="295.2" rx="3" fill="#74a8cf"/>
+<text x="95.42105263157895" y="122.80000000000001" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">54</text>
+<text x="95.42105263157895" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">1</text>
+<rect x="122.8" y="249.1" width="42.8" height="174.9" rx="3" fill="#74a8cf"/>
+<text x="144.26315789473685" y="243.06666666666666" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">32</text>
+<text x="144.26315789473685" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">2</text>
+<rect x="171.7" y="309.2" width="42.8" height="114.8" rx="3" fill="#74a8cf"/>
+<text x="193.10526315789474" y="303.2" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">21</text>
+<text x="193.10526315789474" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">3</text>
+<rect x="220.5" y="227.2" width="42.8" height="196.8" rx="3" fill="#74a8cf"/>
+<text x="241.94736842105266" y="221.2" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">36</text>
+<text x="241.94736842105266" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">4</text>
+<rect x="269.4" y="276.4" width="42.8" height="147.6" rx="3" fill="#74a8cf"/>
+<text x="290.7894736842105" y="270.4" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">27</text>
+<text x="290.7894736842105" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">5</text>
+<rect x="318.2" y="254.5" width="42.8" height="169.5" rx="3" fill="#74a8cf"/>
+<text x="339.63157894736844" y="248.53333333333333" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">31</text>
+<text x="339.63157894736844" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">6</text>
+<rect x="367.1" y="276.4" width="42.8" height="147.6" rx="3" fill="#74a8cf"/>
+<text x="388.47368421052636" y="270.4" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">27</text>
+<text x="388.47368421052636" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">7</text>
+<rect x="415.9" y="369.3" width="42.8" height="54.7" rx="3" fill="#74a8cf"/>
+<text x="437.3157894736842" y="363.3333333333333" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">10</text>
+<text x="437.3157894736842" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">8</text>
+<rect x="464.7" y="292.8" width="42.8" height="131.2" rx="3" fill="#74a8cf"/>
+<text x="486.15789473684214" y="286.8" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">24</text>
+<text x="486.15789473684214" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">9</text>
+<rect x="513.6" y="331.1" width="42.8" height="92.9" rx="3" fill="#2f6f9f"/>
+<text x="535.0" y="325.06666666666666" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">17</text>
+<text x="535.0" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">10</text>
+<rect x="562.4" y="358.4" width="42.8" height="65.6" rx="3" fill="#2f6f9f"/>
+<text x="583.8421052631579" y="352.4" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">12</text>
+<text x="583.8421052631579" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">11</text>
+<rect x="611.3" y="287.3" width="42.8" height="136.7" rx="3" fill="#2f6f9f"/>
+<text x="632.6842105263158" y="281.33333333333337" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">25</text>
+<text x="632.6842105263158" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">12</text>
+<rect x="660.1" y="358.4" width="42.8" height="65.6" rx="3" fill="#2f6f9f"/>
+<text x="681.5263157894738" y="352.4" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">12</text>
+<text x="681.5263157894738" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">13</text>
+<rect x="708.9" y="352.9" width="42.8" height="71.1" rx="3" fill="#2f6f9f"/>
+<text x="730.3684210526317" y="346.93333333333334" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">13</text>
+<text x="730.3684210526317" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">14</text>
+<rect x="757.8" y="358.4" width="42.8" height="65.6" rx="3" fill="#2f6f9f"/>
+<text x="779.2105263157895" y="352.4" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">12</text>
+<text x="779.2105263157895" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">15</text>
+<rect x="806.6" y="336.5" width="42.8" height="87.5" rx="3" fill="#2f6f9f"/>
+<text x="828.0526315789474" y="330.5333333333333" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">16</text>
+<text x="828.0526315789474" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">16</text>
+<rect x="855.5" y="391.2" width="42.8" height="32.8" rx="3" fill="#2f6f9f"/>
+<text x="876.8947368421053" y="385.2" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">6</text>
+<text x="876.8947368421053" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">17</text>
+<rect x="904.3" y="380.3" width="42.8" height="43.7" rx="3" fill="#2f6f9f"/>
+<text x="925.7368421052632" y="374.26666666666665" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">8</text>
+<text x="925.7368421052632" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">18</text>
+<rect x="953.2" y="391.2" width="42.8" height="32.8" rx="3" fill="#2f6f9f"/>
+<text x="974.5789473684212" y="385.2" font-family="Arial, sans-serif" font-size="10" fill="#263244" text-anchor="middle">6</text>
+<text x="974.5789473684212" y="444" font-family="Arial, sans-serif" font-size="11" fill="#344054" text-anchor="middle">19</text>
+<text x="535.0" y="480" font-family="Arial, sans-serif" font-size="12" fill="#344054" text-anchor="middle">Число респондентов, давших идентичный ответ</text>
+<text x="18" y="260.0" font-family="Arial, sans-serif" font-size="12" fill="#344054" text-anchor="middle" transform="rotate(-90 18 260.0)">Число ситуаций в данных</text>
+</svg>

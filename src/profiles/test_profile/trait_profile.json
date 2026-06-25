@@ -1,0 +1,11 @@
+{
+  "section": "profile",
+  "profile_id": "test_profile",
+  "label": "Профиль исключительно для тестов",
+  "traits": {
+    "friendliness": {
+      "value": "high",
+      "label": "высокая"
+    }
+  }
+}

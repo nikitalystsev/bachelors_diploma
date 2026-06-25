@@ -1,0 +1,47 @@
+{
+  "section": "situation",
+  "parameters": [
+    {
+      "feature": "offensiveness_degree",
+      "label": "Степень обидности",
+      "input": "slider",
+      "default": 0.78,
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "fuzzy_terms": [
+        {
+          "term": "low",
+          "label": "низкая",
+          "function_type": "trapezoid",
+          "points": [
+            0.0,
+            0.0,
+            0.25,
+            0.45
+          ]
+        },
+        {
+          "term": "medium",
+          "label": "средняя",
+          "function_type": "triangle",
+          "points": [
+            0.30,
+            0.50,
+            0.70
+          ]
+        },
+        {
+          "term": "high",
+          "label": "высокая",
+          "function_type": "trapezoid",
+          "points": [
+            0.55,
+            0.75,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

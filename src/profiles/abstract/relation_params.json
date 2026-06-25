@@ -1,0 +1,21 @@
+{
+  "section": "relation",
+  "parameters": [
+    {
+      "feature": "social_circle",
+      "label": "Круг общения",
+      "input": "select",
+      "default": "distant",
+      "options": [
+        {
+          "term": "close",
+          "label": "близкий"
+        },
+        {
+          "term": "distant",
+          "label": "дальний"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="809" viewBox="0 0 630 809">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="20" y="25" font-size="16" font-weight="700" fill="#202124">Средняя согласованность по граням</text>
+<text x="20" y="45" font-size="11" fill="#5f6368">Среднее значение по трем уровням выраженности</text>
+<text x="20" y="69" font-size="11" fill="#202124">8. моральность</text>
+<rect x="300" y="58" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="58" width="73.0" height="12" fill="#c55a5a"/>
+<text x="570" y="69" font-size="11" fill="#202124">28%</text>
+<text x="20" y="93" font-size="11" fill="#202124">24. уязвимость</text>
+<rect x="300" y="82" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="82" width="73.0" height="12" fill="#c55a5a"/>
+<text x="570" y="93" font-size="11" fill="#202124">28%</text>
+<text x="20" y="117" font-size="11" fill="#202124">21. подавленность</text>
+<rect x="300" y="106" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="106" width="77.5" height="12" fill="#c55a5a"/>
+<text x="570" y="117" font-size="11" fill="#202124">30%</text>
+<text x="20" y="141" font-size="11" fill="#202124">13. самоэффективность</text>
+<rect x="300" y="130" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="130" width="86.7" height="12" fill="#c55a5a"/>
+<text x="570" y="141" font-size="11" fill="#202124">33%</text>
+<text x="20" y="165" font-size="11" fill="#202124">5. поиск острых ощущений</text>
+<rect x="300" y="154" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="154" width="91.2" height="12" fill="#c55a5a"/>
+<text x="570" y="165" font-size="11" fill="#202124">35%</text>
+<text x="20" y="189" font-size="11" fill="#202124">22. чувствительность к оценке</text>
+<rect x="300" y="178" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="178" width="91.2" height="12" fill="#c55a5a"/>
+<text x="570" y="189" font-size="11" fill="#202124">35%</text>
+<text x="20" y="213" font-size="11" fill="#202124">3. настойчивость</text>
+<rect x="300" y="202" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="202" width="95.8" height="12" fill="#c55a5a"/>
+<text x="570" y="213" font-size="11" fill="#202124">37%</text>
+<text x="20" y="237" font-size="11" fill="#202124">6. жизнерадостность</text>
+<rect x="300" y="226" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="226" width="95.8" height="12" fill="#c55a5a"/>
+<text x="570" y="237" font-size="11" fill="#202124">37%</text>
+<text x="20" y="261" font-size="11" fill="#202124">14. аккуратность</text>
+<rect x="300" y="250" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="250" width="95.8" height="12" fill="#c55a5a"/>
+<text x="570" y="261" font-size="11" fill="#202124">37%</text>
+<text x="20" y="285" font-size="11" fill="#202124">4. уровень активности</text>
+<rect x="300" y="274" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="274" width="104.9" height="12" fill="#c55a5a"/>
+<text x="570" y="285" font-size="11" fill="#202124">40%</text>
+<text x="20" y="309" font-size="11" fill="#202124">19. тревожности</text>
+<rect x="300" y="298" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="298" width="109.5" height="12" fill="#c55a5a"/>
+<text x="570" y="309" font-size="11" fill="#202124">42%</text>
+<text x="20" y="333" font-size="11" fill="#202124">30. либерализм</text>
+<rect x="300" y="322" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="322" width="109.5" height="12" fill="#c55a5a"/>
+<text x="570" y="333" font-size="11" fill="#202124">42%</text>
+<text x="20" y="357" font-size="11" fill="#202124">10. сотрудничество</text>
+<rect x="300" y="346" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="346" width="114.0" height="12" fill="#c55a5a"/>
+<text x="570" y="357" font-size="11" fill="#202124">44%</text>
+<text x="20" y="381" font-size="11" fill="#202124">20. гневность</text>
+<rect x="300" y="370" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="370" width="114.0" height="12" fill="#c55a5a"/>
+<text x="570" y="381" font-size="11" fill="#202124">44%</text>
+<text x="20" y="405" font-size="11" fill="#202124">11. скромность</text>
+<rect x="300" y="394" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="394" width="132.3" height="12" fill="#e0a646"/>
+<text x="570" y="405" font-size="11" fill="#202124">51%</text>
+<text x="20" y="429" font-size="11" fill="#202124">16. стремление к достижениям</text>
+<rect x="300" y="418" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="418" width="132.3" height="12" fill="#e0a646"/>
+<text x="570" y="429" font-size="11" fill="#202124">51%</text>
+<text x="20" y="453" font-size="11" fill="#202124">28. авантюризм</text>
+<rect x="300" y="442" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="442" width="132.3" height="12" fill="#e0a646"/>
+<text x="570" y="453" font-size="11" fill="#202124">51%</text>
+<text x="20" y="477" font-size="11" fill="#202124">27. эмоциональность</text>
+<rect x="300" y="466" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="466" width="136.8" height="12" fill="#e0a646"/>
+<text x="570" y="477" font-size="11" fill="#202124">53%</text>
+<text x="20" y="501" font-size="11" fill="#202124">2. общительность</text>
+<rect x="300" y="490" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="490" width="141.4" height="12" fill="#e0a646"/>
+<text x="570" y="501" font-size="11" fill="#202124">54%</text>
+<text x="20" y="525" font-size="11" fill="#202124">23. неумеренность</text>
+<rect x="300" y="514" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="514" width="146.0" height="12" fill="#e0a646"/>
+<text x="570" y="525" font-size="11" fill="#202124">56%</text>
+<text x="20" y="549" font-size="11" fill="#202124">26. художенственные интересы</text>
+<rect x="300" y="538" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="538" width="146.0" height="12" fill="#e0a646"/>
+<text x="570" y="549" font-size="11" fill="#202124">56%</text>
+<text x="20" y="573" font-size="11" fill="#202124">12. сочувствие</text>
+<rect x="300" y="562" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="562" width="155.1" height="12" fill="#e0a646"/>
+<text x="570" y="573" font-size="11" fill="#202124">60%</text>
+<text x="20" y="597" font-size="11" fill="#202124">18. осторожности</text>
+<rect x="300" y="586" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="586" width="164.2" height="12" fill="#e0a646"/>
+<text x="570" y="597" font-size="11" fill="#202124">63%</text>
+<text x="20" y="621" font-size="11" fill="#202124">7. доверчивость</text>
+<rect x="300" y="610" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="610" width="164.2" height="12" fill="#e0a646"/>
+<text x="570" y="621" font-size="11" fill="#202124">63%</text>
+<text x="20" y="645" font-size="11" fill="#202124">25. воображение</text>
+<rect x="300" y="634" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="634" width="164.2" height="12" fill="#e0a646"/>
+<text x="570" y="645" font-size="11" fill="#202124">63%</text>
+<text x="20" y="669" font-size="11" fill="#202124">15. исполнительность</text>
+<rect x="300" y="658" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="658" width="173.3" height="12" fill="#e0a646"/>
+<text x="570" y="669" font-size="11" fill="#202124">67%</text>
+<text x="20" y="693" font-size="11" fill="#202124">1. дружелюбие</text>
+<rect x="300" y="682" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="682" width="182.5" height="12" fill="#e0a646"/>
+<text x="570" y="693" font-size="11" fill="#202124">70%</text>
+<text x="20" y="717" font-size="11" fill="#202124">9. альтруизм</text>
+<rect x="300" y="706" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="706" width="205.3" height="12" fill="#8fbd5a"/>
+<text x="570" y="717" font-size="11" fill="#202124">79%</text>
+<text x="20" y="741" font-size="11" fill="#202124">17. самодисциплина</text>
+<rect x="300" y="730" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="730" width="205.3" height="12" fill="#8fbd5a"/>
+<text x="570" y="741" font-size="11" fill="#202124">79%</text>
+<text x="20" y="765" font-size="11" fill="#202124">29. интеллектуальная любознательность</text>
+<rect x="300" y="754" width="260" height="12" fill="#edf0f2"/>
+<rect x="300" y="754" width="209.8" height="12" fill="#8fbd5a"/>
+<text x="570" y="765" font-size="11" fill="#202124">81%</text>
+</svg>

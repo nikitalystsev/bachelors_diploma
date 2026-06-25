@@ -1,0 +1,298 @@
+{
+  "rules": [
+    {
+      "rule_id": "R01",
+      "label": "Правило №1",
+      "conditions": [
+        {
+          "feature": "assertiveness",
+          "terms": ["medium"]
+        },
+        {
+          "feature": "cooperation",
+          "terms": ["below_average"]
+        },
+        {
+          "feature": "gregariousness",
+          "terms": ["low"]
+        },
+        {
+          "feature": "social_circle",
+          "terms": ["distant"]
+        },
+        {
+          "feature": "imposition_degree",
+          "terms": ["low","medium","high"]
+        },
+        {
+          "feature": "contact_duration",
+          "terms": ["low","medium","high"]
+        }
+      ],
+      "target_scenarios": [
+        "ты-попал-в-плохое-место"
+      ],
+      "effect": "strong_increase"
+    },
+    {
+      "rule_id": "R02",
+      "label": "Правило №2",
+      "conditions": [
+        {
+          "feature": "assertiveness",
+          "terms": ["medium"]
+        },
+        {
+          "feature": "cooperation",
+          "terms": ["below_average"]
+        },
+        {
+          "feature": "gregariousness",
+          "terms": ["low"]
+        },
+        {
+          "feature": "social_circle",
+          "terms": ["distant"]
+        },
+        {
+          "feature": "imposition_degree",
+          "terms": ["low","medium","high"]
+        },
+        {
+          "feature": "contact_duration",
+          "terms": ["low","medium","high"]
+        }
+      ],
+      "target_scenarios": [
+        "я-попал-в-плохое-место-СОЧУВ"
+      ],
+      "effect": "strong_decrease"
+    },
+    {
+      "rule_id": "R03",
+      "label": "Правило №3",
+      "conditions": [
+        {
+          "feature": "assertiveness",
+          "terms": ["medium"]
+        },
+        {
+          "feature": "cooperation",
+          "terms": ["below_average"]
+        },
+        {
+          "feature": "gregariousness",
+          "terms": ["low"]
+        },
+        {
+          "feature": "social_circle",
+          "terms": ["distant"]
+        },
+        {
+          "feature": "imposition_degree",
+          "terms": ["low","medium","high"]
+        },
+        {
+          "feature": "contact_duration",
+          "terms": ["low","medium","high"]
+        }
+      ],
+      "target_scenarios": [
+        "я-попал-в-необычное-место-РАДЗА"
+      ],
+      "effect": "strong_decrease"
+    },
+    {
+      "rule_id": "R04",
+      "label": "Правило №4",
+      "conditions": [
+        {
+          "feature": "assertiveness",
+          "terms": ["medium"]
+        },
+        {
+          "feature": "cooperation",
+          "terms": ["below_average"]
+        },
+        {
+          "feature": "gregariousness",
+          "terms": ["low"]
+        },
+        {
+          "feature": "social_circle",
+          "terms": ["distant"]
+        },
+        {
+          "feature": "imposition_degree",
+          "terms": ["low","medium","high"]
+        },
+        {
+          "feature": "contact_duration",
+          "terms": ["low","medium","high"]
+        }
+      ],
+      "target_scenarios": [
+        "я-нужен-всем-людям-ВОСХИЩ"
+      ],
+      "effect": "strong_decrease"
+    },
+    {
+      "rule_id": "R05",
+      "label": "Правило №5",
+      "conditions": [
+        {
+          "feature": "assertiveness",
+          "terms": ["medium"]
+        },
+        {
+          "feature": "cooperation",
+          "terms": ["below_average"]
+        },
+        {
+          "feature": "gregariousness",
+          "terms": ["low"]
+        },
+        {
+          "feature": "social_circle",
+          "terms": ["close"]
+        },
+        {
+          "feature": "imposition_degree",
+          "terms": ["low","medium","high"]
+        },
+        {
+          "feature": "contact_duration",
+          "terms": ["low","medium","high"]
+        }
+      ],
+      "target_scenarios": [
+        "я-попал-в-необычное-место-РАДЗА"
+      ],
+      "effect": "strong_decrease"
+    },
+    {
+      "rule_id": "R06",
+      "label": "Правило №6",
+      "conditions": [
+        {
+          "feature": "assertiveness",
+          "terms": ["medium"]
+        },
+        {
+          "feature": "cooperation",
+          "terms": ["below_average"]
+        },
+        {
+          "feature": "gregariousness",
+          "terms": ["low"]
+        },
+        {
+          "feature": "social_circle",
+          "terms": ["close", "distant"]
+        },
+        {
+          "feature": "imposition_degree",
+          "terms": ["low","medium","high"]
+        },
+        {
+          "feature": "contact_duration",
+          "terms": ["low","medium","high"]
+        }
+      ],
+      "target_scenarios": [
+        "у-еды-был-приятный-вкус"
+      ],
+      "effect": "strong_decrease"
+    },
+    {
+      "rule_id": "R07",
+      "label": "Правило №7",
+      "conditions": [
+        {
+          "feature": "assertiveness",
+          "terms": ["medium"]
+        },
+        {
+          "feature": "cooperation",
+          "terms": ["below_average"]
+        },
+        {
+          "feature": "gregariousness",
+          "terms": ["low"]
+        },
+        {
+          "feature": "social_circle",
+          "terms": ["close", "distant"]
+        },
+        {
+          "feature": "imposition_degree",
+          "terms": ["low","medium","high"]
+        },
+        {
+          "feature": "contact_duration",
+          "terms": ["low","medium","high"]
+        }
+      ],
+      "target_scenarios": [
+        "у-еды-был-неприятный-вкус"
+      ],
+      "effect": "strong_decrease"
+    },
+    {
+      "rule_id": "R08",
+      "label": "Правило №8",
+      "conditions": [
+        {
+          "feature": "self_consciousness",
+          "terms": [
+            "high"
+          ]
+        },
+        {
+          "feature": "social_circle",
+          "terms": [
+            "distant"
+          ]
+        },
+        {
+          "feature": "offensiveness_degree",
+          "terms": [
+            "high"
+          ]
+        }
+      ],
+      "target_scenarios": [
+        "ты-говоришь-правду"
+      ],
+      "effect": "strong_increase"
+    },
+    {
+      "rule_id": "R09",
+      "label": "Правило №9",
+      "conditions": [
+        {
+          "feature": "self_consciousness",
+          "terms": [
+            "high"
+          ]
+        },
+        {
+          "feature": "social_circle",
+          "terms": [
+            "distant"
+          ]
+        },
+        {
+          "feature": "offensiveness_degree",
+          "terms": [
+            "high"
+          ]
+        }
+      ],
+      "target_scenarios": [
+        "ты-расстраиваешь-людей"
+      ],
+      "effect": "decrease"
+    }
+  ]
+}

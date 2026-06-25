@@ -1,0 +1,47 @@
+{
+  "section": "situation",
+  "parameters": [
+    {
+      "feature": "test_situation_feature",
+      "label": "Тестовый признак ситуации",
+      "input": "slider",
+      "default": 0.90,
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "fuzzy_terms": [
+        {
+          "term": "low",
+          "label": "низкая",
+          "function_type": "trapezoid",
+          "points": [
+            0.0,
+            0.0,
+            0.18,
+            0.38
+          ]
+        },
+        {
+          "term": "medium",
+          "label": "средняя",
+          "function_type": "triangle",
+          "points": [
+            0.25,
+            0.50,
+            0.72
+          ]
+        },
+        {
+          "term": "high",
+          "label": "высокая",
+          "function_type": "trapezoid",
+          "points": [
+            0.60,
+            0.78,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}

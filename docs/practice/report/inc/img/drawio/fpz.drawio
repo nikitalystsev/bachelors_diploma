@@ -1,0 +1,60 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36">
+  <diagram name="Page-1" id="3b7BDu4vpgOtuoFNMT2E">
+    <mxGraphModel dx="1412" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ggSus2Sj6oDeFXivAaxe-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Модуль модификации поведения на основе персональных черт&lt;/div&gt;" vertex="1">
+          <mxGeometry height="210" width="340" x="250" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ggSus2Sj6oDeFXivAaxe-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ggSus2Sj6oDeFXivAaxe-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="20" y="335" as="sourcePoint" />
+            <mxPoint x="550" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggSus2Sj6oDeFXivAaxe-5" connectable="0" parent="ggSus2Sj6oDeFXivAaxe-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Набор пар &amp;lt;Имя сценария, Вес сценария&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0088" y="4" as="geometry">
+            <mxPoint y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggSus2Sj6oDeFXivAaxe-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="ggSus2Sj6oDeFXivAaxe-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="335" y="40" as="sourcePoint" />
+            <mxPoint x="330" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggSus2Sj6oDeFXivAaxe-7" connectable="0" parent="ggSus2Sj6oDeFXivAaxe-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Задаваемый профиль&lt;div&gt;(характер) робота&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2105" y="4" as="geometry">
+            <mxPoint x="-69" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggSus2Sj6oDeFXivAaxe-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="ggSus2Sj6oDeFXivAaxe-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="505" y="40" as="sourcePoint" />
+            <mxPoint x="550" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggSus2Sj6oDeFXivAaxe-9" connectable="0" parent="ggSus2Sj6oDeFXivAaxe-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Правила&amp;nbsp;&lt;div&gt;переформирования&lt;/div&gt;&lt;div&gt;&amp;nbsp;набора сценариев&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1158" y="3" as="geometry">
+            <mxPoint x="52" y="16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggSus2Sj6oDeFXivAaxe-14" edge="1" parent="1" source="ggSus2Sj6oDeFXivAaxe-1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="280" as="sourcePoint" />
+            <mxPoint x="820" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ggSus2Sj6oDeFXivAaxe-15" connectable="0" parent="ggSus2Sj6oDeFXivAaxe-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Модифицированный набор&amp;nbsp;&lt;div&gt;пар &amp;lt;Имя сценария, Вес сценария&amp;gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1654" y="2" as="geometry">
+            <mxPoint x="14" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SdPiXJL7CIwbVE_EmVQo-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;resizable=0;" value="А3" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,297 @@
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,main=russian]{babel}
+\usepackage{fix-cm}
+
+\usepackage[
+	left=30mm,
+	right=15mm,
+	top=20mm,
+	bottom=20mm,
+]{geometry}
+
+
+\usepackage{microtype}
+\sloppy
+
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{indentfirst}
+\setlength{\parindent}{12.5mm}
+
+\makeatletter
+\renewcommand\LARGE{\@setfontsize\LARGE{22pt}{20}}
+\renewcommand\Large{\@setfontsize\Large{20pt}{20}}
+\renewcommand\large{\@setfontsize\large{16pt}{20}}
+\makeatother
+\usepackage{titlesec}
+\titleformat{\chapter}[block]{\hspace{\parindent}\large\bfseries}{\thechapter}{0.5em}{\large\bfseries\raggedright}
+\titleformat{name=\chapter,numberless}[block]{}{}{0pt}{\large\bfseries\centering}
+\titleformat{\section}[block]{\hspace{\parindent}\large\bfseries}{\thesection}{0.5em}{\large\bfseries\raggedright}
+\titleformat{\subsection}[block]{\hspace{\parindent}\large\bfseries}{\thesubsection}{0.5em}{\large\bfseries\raggedright}
+\titleformat{\subsubsection}[block]{\hspace{\parindent}\large\bfseries}{\thesubsection}{0.5em}{\large\bfseries\raggedright}
+\titlespacing{\chapter}{12.5mm}{-22pt}{10pt}
+\titlespacing{\section}{12.5mm}{10pt}{10pt}
+\titlespacing{\subsection}{12.5mm}{10pt}{10pt}
+\titlespacing{\subsubsection}{12.5mm}{10pt}{10pt}
+\makeatletter
+\renewcommand*{\l@chapter}[2]{
+\ifnum \c@tocdepth>\m@ne
+    \addpenalty{-\@highpenalty}
+    \vskip 1em \@plus.2em
+    \@dottedtocline{0}{0pt}{1.5em}{\bfseries #1}{\bfseries #2}
+\fi
+}
+
+\makeatother
+
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{tikzscale}
+\usepackage{pgfplots}
+\pgfplotsset{compat=newest}
+\newcommand{\includeimage}[5]{%
+	\ifthenelse{\equal{#2}{f}}{%
+		\begin{figure}[#3]
+			\center{\includegraphics[width=#4]{inc/img/#1}}%
+			\caption{#5}%
+			\label{img:#1}%
+		\end{figure}%
+	}{%
+		\ifthenelse{\equal{#2}{w}}{%
+			\begin{wrapfigure}{#3}{#4}
+				\center{\includegraphics[width=#4]{inc/img/#1}}%
+				\caption{#5}%
+				\label{img:#1}%
+			\end{wrapfigure}%
+		}{%
+			\PackageError{bmstu}{unknown image type}{}%
+		}%
+	}%
+}
+
+\usepackage{listings}
+\usepackage{listingsutf8}
+\lstset{
+	inputencoding=utf8/koi8-r,
+	basicstyle=\small\ttfamily,
+	rulecolor=\color{black},
+	escapeinside={\%*}{*)},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=4,
+	showstringspaces=false,
+	float=h!,
+	abovecaptionskip=-5pt,
+}
+\definecolor{numbers}{rgb}{0.5,0.5,0.5}
+\definecolor{keywords}{rgb}{0.13,0.13,1}
+\definecolor{comments}{rgb}{0,0.5,0}
+\definecolor{strings}{rgb}{0.9,0,0}
+\newcommand{\includelisting}[2]{%
+	\lstinputlisting[
+		frame=single,
+		caption={#2},
+		label={lst:#1},
+	]{inc/lst/#1}%
+}
+\newcommand{\includelistingpretty}[3]{%
+	\lstinputlisting[
+		language={#2},
+		keywordstyle=\color{keywords},
+		stringstyle=\color{strings},
+		commentstyle=\color{comments},
+		frame=leftline,
+		numbers=left,
+		numberstyle=\footnotesize\color{numbers},
+		caption={#3},
+		label={lst:#1},
+	]{inc/lst/#1}%
+}
+
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage[
+	labelsep=endash,
+	figurename=Рисунок,
+	singlelinecheck=false,
+]{caption}
+\captionsetup[figure]{justification=centering}
+
+\usepackage{lscape}
+\usepackage{afterpage}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage[
+	style=gost-numeric,
+	language=auto,
+	autolang=other,
+	sorting=none,
+	movenames=false,
+]{biblatex}
+\usepackage{csquotes}
+\DeclareFieldFormat{urldate}{(дата обращения:\addspace\thefield{urlday}\adddot \thefield{urlmonth}\adddot \thefield{urlyear})}
+
+\usepackage[unicode,hidelinks]{hyperref}
+
+\usepackage{xifthen}
+\usepackage{enumitem}
+\usepackage{lastpage}
+\usepackage{totcount}
+\usepackage{assoccnt}
+\newcounter{appendixchapters}
+\DeclareAssociatedCounters{chapter}{appendixchapters}
+\regtotcounter{appendixchapters}
+
+\makeatletter
+\newcommand*{\bmstu@toc@dottedline}[5]{%
+	\ifnum #1>\c@tocdepth \else
+		\vskip \z@ \@plus.2\p@
+		{%
+			\leftskip #2\relax
+			\rightskip \@tocrmarg plus 1fil\relax
+			\parfillskip -\rightskip
+			\parindent #2\relax
+			\@afterindenttrue
+			\interlinepenalty\@M
+			\leavevmode
+			\@tempdima #3\relax
+			\advance\leftskip \@tempdima
+			\null\nobreak\hskip -\leftskip
+			{#4}\nobreak
+			\leaders\hbox{$\m@th \mkern \@dotsep mu\hbox{.}\mkern \@dotsep mu$}\hfill
+			\nobreak
+			\hb@xt@\@pnumwidth{\hfil\normalfont\normalcolor #5}%
+			\par
+		}%
+	\fi
+}
+\newcommand{\bmstuTocNoHyphenSetup}{%
+	\hyphenpenalty=10000
+	\exhyphenpenalty=10000
+	\let\@dottedtocline\bmstu@toc@dottedline
+}
+\makeatother
+
+\newcommand{\maketableofcontents}{%
+	\renewcommand\contentsname{СОДЕРЖАНИЕ}%
+	\begingroup
+		\bmstuTocNoHyphenSetup
+		\tableofcontents
+	\endgroup
+}
+\newcommand{\makebibliography}{%
+	\addcontentsline{toc}{chapter}{СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ}%
+	\printbibliography[title=СПИСОК ИСПОЛЬЗОВАННЫХ ИСТОЧНИКОВ]%
+}
+
+\newcommand{\makeappendix}[1]{%
+	\chapter*{\hfill{\centering ПРИЛОЖЕНИЕ #1}\hfill}%
+	\addcontentsline{toc}{chapter}{ПРИЛОЖЕНИЕ #1}%
+	\renewcommand{\thelstlisting}{#1.\arabic{lstlisting}}%
+	\setcounter{lstlisting}{0}%
+}
+\usepackage{lastpage}
+\usepackage{etoolbox}
+\usepackage{totcount}
+\usepackage{assoccnt}
+\usepackage{hyperref}
+
+\newcounter{totfigures}
+\newcounter{tottables}
+\providecommand\totfig{}
+\providecommand\tottab{}
+
+\makeatletter
+\AtEndDocument{%
+	\addtocounter{totfigures}{\value{figure}}%
+	\addtocounter{tottables}{\value{table}}%
+	\immediate\write\@mainaux{%
+		\string\gdef\string\totfig{\number\value{totfigures}}%
+		\string\gdef\string\tottab{\number\value{tottables}}%
+	}%
+}
+\makeatother
+
+\pretocmd{\chapter}{%
+	\addtocounter{totfigures}{\value{figure}}%
+	\setcounter{figure}{0}%
+}{}{}
+
+\pretocmd{\chapter}{%
+	\addtocounter{tottables}{\value{table}}%
+	\setcounter{table}{0}%
+}{}{}
+
+\newcounter{totbibentries}
+\newcommand*{\listcounted}{}
+\providecommand\totbib{}
+
+\makeatletter
+\AtDataInput{%
+	\xifinlist{\abx@field@entrykey}\listcounted
+	{}
+	{%
+		\stepcounter{totbibentries}%
+		\listxadd\listcounted{\abx@field@entrykey}%
+	}%
+}
+\makeatother
+
+
+\newenvironment{essay}[1]
+{
+	\chapter*{РЕФЕРАТ}
+	\addcontentsline{toc}{chapter}{РЕФЕРАТ}
+
+	Расчётно-пояснительная записка
+	\begin{NoHyper}\pageref{LastPage}\end{NoHyper}~страниц,
+	\totfig~рисунков,
+	\tottab~таблиц,
+	\thetotbibentries~источников,
+	2~приложения
+
+	\noindent \MakeUppercase{#1}\par
+}{}
+
+% --- definitions / abbreviations (из .sty) ---
+\newcommand{\definition}[2]{%
+	\item \noindent #1~---~#2
+}
+
+\newenvironment{definitions}
+{
+	\chapter*{ОПРЕДЕЛЕНИЯ}
+	\addcontentsline{toc}{chapter}{ОПРЕДЕЛЕНИЯ}
+
+	В настоящей расчётно-пояснительной записке применяют следующие термины с соответствующими определениями.
+
+	\begin{description}[leftmargin=0pt]
+	}
+	{
+	\end{description}
+}
+
+\newenvironment{abbreviations}
+{
+	\chapter*{ОБОЗНАЧЕНИЯ И СОКРАЩЕНИЯ}
+	\addcontentsline{toc}{chapter}{ОБОЗНАЧЕНИЯ И СОКРАЩЕНИЯ}
+
+	В настоящей расчётно-пояснительной записке применяют следующие сокращения и обозначения.
+
+	\begin{description}[leftmargin=0pt]
+	}
+	{
+	\end{description}
+}
+
+% \makeatletter
+% \renewcommand{\@pnumwidth}{2.5em}   % было 1.55em по умолчанию
+% \renewcommand{\@tocrmarg}{3.5em}    % правый отступ для оглавления
+% \makeatother
+% --- end ---

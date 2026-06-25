@@ -1,0 +1,48 @@
+{
+  "rules": [
+    {
+      "rule_id": "R01",
+      "label": "Правило №1",
+      "conditions": [
+        {
+          "feature": "friendliness",
+          "terms": ["high"]
+        },
+        {
+          "feature": "test_relation_feature",
+          "terms": ["distant"]
+        },
+        {
+          "feature": "test_situation_feature",
+          "terms": ["high"]
+        }
+      ],
+      "target_scenarios": [
+        "привет"
+      ],
+      "effect": "strong_increase"
+    },
+    {
+      "rule_id": "R02",
+      "label": "Правило №2",
+      "conditions": [
+        {
+          "feature": "friendliness",
+          "terms": ["high"]
+        },
+        {
+          "feature": "test_relation_feature",
+          "terms": ["distant"]
+        },
+        {
+          "feature": "test_situation_feature",
+          "terms": ["high"]
+        }
+      ],
+      "target_scenarios": [
+        "до-свиданья"
+      ],
+      "effect": "strong_decrease"
+    }
+  ]
+}

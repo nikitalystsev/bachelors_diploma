@@ -1,0 +1,131 @@
+{
+  "section": "situation",
+  "parameters": [
+    {
+      "feature": "imposition_degree",
+      "label": "Степень навязанности",
+      "input": "slider",
+      "default": 0.90,
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "fuzzy_terms": [
+        {
+          "term": "low",
+          "label": "низкая",
+          "function_type": "trapezoid",
+          "points": [
+            0.0,
+            0.0,
+            0.18,
+            0.38
+          ]
+        },
+        {
+          "term": "medium",
+          "label": "средняя",
+          "function_type": "triangle",
+          "points": [
+            0.25,
+            0.50,
+            0.72
+          ]
+        },
+        {
+          "term": "high",
+          "label": "высокая",
+          "function_type": "trapezoid",
+          "points": [
+            0.60,
+            0.78,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "feature": "contact_duration",
+      "label": "Длительность контакта",
+      "input": "slider",
+      "default": 0.85,
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "fuzzy_terms": [
+        {
+          "term": "low",
+          "label": "короткая",
+          "function_type": "trapezoid",
+          "points": [
+            0.0,
+            0.0,
+            0.15,
+            0.35
+          ]
+        },
+        {
+          "term": "medium",
+          "label": "средняя",
+          "function_type": "triangle",
+          "points": [
+            0.25,
+            0.50,
+            0.75
+          ]
+        },
+        {
+          "term": "high",
+          "label": "длительная",
+          "function_type": "trapezoid",
+          "points": [
+            0.65,
+            0.82,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "feature": "offensiveness_degree",
+      "label": "Степень обидности",
+      "input": "slider",
+      "default": 0.78,
+      "minimum": 0.0,
+      "maximum": 1.0,
+      "fuzzy_terms": [
+        {
+          "term": "low",
+          "label": "низкая",
+          "function_type": "trapezoid",
+          "points": [
+            0.0,
+            0.0,
+            0.25,
+            0.45
+          ]
+        },
+        {
+          "term": "medium",
+          "label": "средняя",
+          "function_type": "triangle",
+          "points": [
+            0.30,
+            0.50,
+            0.70
+          ]
+        },
+        {
+          "term": "high",
+          "label": "высокая",
+          "function_type": "trapezoid",
+          "points": [
+            0.55,
+            0.75,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  ]
+}
