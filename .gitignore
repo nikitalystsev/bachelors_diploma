@@ -13,6 +13,7 @@ src/__pycache__/
 src/gui/__pycache__/
 tests/__pycache__/
 
+docs/scans
 docs/.DS_Store
 docs/diplom-master
 docs/diplom-master.zip
